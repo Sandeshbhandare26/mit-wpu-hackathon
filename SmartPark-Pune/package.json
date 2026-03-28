@@ -1,0 +1,12 @@
+{
+  "name": "smartpark-pune",
+  "version": "1.0.0",
+  "description": "Smart Parking & Urban Mobility Solution",
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "cd frontend && npm install && cd ../backend/functions && npm install",
+    "backend:logs": "cd backend/functions && npm run logs"
+  },
+  "author": "SmartPark Pune Team",
+  "license": "MIT"
+}
